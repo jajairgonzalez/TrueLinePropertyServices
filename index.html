@@ -5,12 +5,15 @@
   <title>JAY Fencing INC.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial; margin: 0; }
-    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
-    section { padding: 40px; }
+    body { font-family: Arial; margin: 0; line-height: 1.6; }
+    header { background: #2c3e50; color: white; padding: 30px; text-align: center; }
+    section { padding: 40px; max-width: 1000px; margin: auto; }
     .services, .contact { background: #f4f4f4; }
     footer { background: #333; color: white; text-align: center; padding: 20px; }
-    button { padding: 10px 20px; background: #27ae60; color: white; border: none; }
+    button { padding: 12px 24px; background: #27ae60; color: white; border: none; cursor: pointer; }
+    button:hover { background: #219150; }
+    img { border-radius: 8px; }
+    .gallery { display: flex; gap: 10px; flex-wrap: wrap; }
   </style>
 </head>
 <body>
@@ -23,7 +26,7 @@
 
 <section>
   <h2>About Us</h2>
-  <p>At [Your Company Name], we provide reliable, high-quality fencing services for homes and businesses in [Your City] and surrounding areas. From new installations to repairs, our team focuses on durable materials, solid workmanship, and getting the job done right the first time. We take pride in honest service, fair pricing, and delivering results you can count on.</p>
+  <p>At JAY Fencing INC., we provide reliable, high-quality fencing services for homes and businesses in Los Angeles and surrounding areas. From new installations to repairs, our team focuses on durable materials, solid workmanship, and getting the job done right the first time. We take pride in honest service, fair pricing, and delivering results you can count on.</p>
 </section>
 
 <section class="services">
@@ -38,7 +41,11 @@
 
 <section>
   <h2>Our Work</h2>
-  <img src="fence1.jpg" width="300">
+  <div class="gallery">
+    <img src="fence1.jpg" width="300">
+    <img src="fence2.jpg" width="300">
+    <img src="fence3.jpg" width="300">
+  </div>
 </section>
 
 <section class="contact" id="contact">
@@ -48,7 +55,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Your Fencing Company</p>
+  <p>© 2026 JAY Fencing INC.</p>
 </footer>
 
 </body>
